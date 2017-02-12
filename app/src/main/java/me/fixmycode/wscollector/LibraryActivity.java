@@ -144,7 +144,7 @@ public class LibraryActivity extends BaseActivity implements ItemAdapter.Adapter
                 Serie serie = (Serie) item;
                 if (serie.getChildren() > 0) {
                     loadChildren(serie);
-                    addToolbarTitle(R.string.collection);
+                    addToolbarTitle(R.string.collections);
                 } else {
                     loadReleases(serie);
                     addToolbarTitle(R.string.releases);

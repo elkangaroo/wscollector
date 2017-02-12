@@ -4,7 +4,7 @@ import android.os.Build;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.util.Pair;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import me.fixmycode.wscollector.wsdb.Card;
 import me.fixmycode.wscollector.wsdb.DataBrowser;
 import me.fixmycode.wscollector.wsdb.Item;
 
-public abstract class BaseActivity extends ActionBarActivity implements CardFragment.CardListener,
+public abstract class BaseActivity extends AppCompatActivity implements CardFragment.CardListener,
         FragmentManager.OnBackStackChangedListener {
     private Toolbar toolbar;
 
